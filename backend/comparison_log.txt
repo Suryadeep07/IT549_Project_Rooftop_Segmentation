@@ -1,0 +1,24 @@
+
+========================
+Time: 2026-04-01 08:38:23.727204
+Mode: compare
+Lat,Lon: 18.47387639,73.88203998
+IoU: 0.0641
+Baseline Pixels: 3325, Area: 66.67
+New Pixels: 51883, Area: 1040.25
+
+========================
+Time: 2026-04-01 08:38:30.648223
+Mode: compare
+Lat,Lon: 18.47272814,73.88337736
+IoU: 0.2297
+Baseline Pixels: 21926, Area: 439.62
+New Pixels: 75118, Area: 1506.13
+
+========================
+Time: 2026-04-01 08:39:26.200659
+Mode: compare
+Lat,Lon: 18.47232288,73.8835958
+IoU: 0.0976
+Baseline Pixels: 7535, Area: 151.08
+New Pixels: 77068, Area: 1545.24
