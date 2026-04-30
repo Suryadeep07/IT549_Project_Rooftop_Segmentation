@@ -3,7 +3,7 @@ import axios from 'axios'
 import SolarProgress from './SolarProgress'
 import './SolarTab.css'
 
-const API_URL = '/api'
+import { API_URL } from '../lib/api.js'
 
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun",
                 "Jul","Aug","Sep","Oct","Nov","Dec"]
@@ -34,7 +34,7 @@ export default function SolarTab({ roofResult }) {
       })
 
       const jobId = data.job_id
-      const es    = new EventSource(`/api/solar-progress/${jobId}`)
+      const es = new EventSource(`${API_URL}/solar-progress/${jobId}`)
 
       es.onmessage = (event) => {
         const msg = JSON.parse(event.data)
