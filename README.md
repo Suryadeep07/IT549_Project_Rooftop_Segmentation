@@ -39,7 +39,7 @@
 
 ## Details on How to Use the Application
 1. **Launch the Application:** Open your browser and navigate to the frontend web application interface.
-2. **Locate Target Property:** Use the interactive map to drop a pin on the target residential building.
+2. **Locate Target Property:** Use the interactive map to drop a pin on the target residential building (or use the search functionality).
 3. **Run Segmentation:** Click the "Estimate" button. The backend will process the satellite imagery using our fine-tuned segmentation models to detect the precise residential rooftop boundary.
-4. **View Roof Metrics:** The application will return the segmented polygon and display the calculated usable rooftop area (in square meters).
+4. **View Roof Metrics:** The application will return the segmented polygon and display the calculated usable rooftop area (in square meters). User can also correct the predicted mask.
 5. **Calculate Solar ROI:** Navigate to the Solar Analysis tab, input the monthly electricity bill, and click calculate. The system will leverage the estimated roof area alongside NASA satellite weather data and AI loss models (L5/L7) to provide a comprehensive breakdown of generation, savings, and payback periods.
